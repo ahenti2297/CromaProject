@@ -1,0 +1,49 @@
+.ProfileSection {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: auto;
+  width: 85%;
+}
+.header {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 25px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.header button {
+  padding: 5px 20px;
+  border: 1px solid gray;
+  background-color: inherit;
+  color: white;
+  border-radius: 5px;
+}
+.header button:hover {
+  cursor: pointer;
+  background-color: #12daa8;
+  color: black;
+}
+.detailSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.Container {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 20px 10px;
+}
+.Container:hover {
+  cursor: pointer;
+}
+.icon {
+  margin: 0px 20px;
+}
+.heading {
+  font-size: 20px;
+  font-weight: 600;
+}

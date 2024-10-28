@@ -1,0 +1,83 @@
+.parentContainer {
+  border-top: 1px solid rgb(110, 110, 110);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: rgb(36, 36, 36);
+}
+.sect1 {
+  /* border: 1px solid white; */
+  width: 400px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.sect1 p:first-child {
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.inpt {
+  height: 2.8rem;
+  width: 80%;
+  border-radius: 6px;
+  border: none;
+  background-color: white;
+}
+::placeholder {
+  position: absolute;
+  left: 5%;
+}
+.socialLink {
+  width: 100%;
+  font-size: 28px;
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 6%;
+  margin-right: 9%;
+}
+.sect2,
+.sect3,
+.sect4 {
+  color: rgb(189, 190, 190);
+  gap: 2%;
+}
+.sect2 p,
+.sect3 p {
+  margin: 15px 0;
+}
+
+.sect1 p:first-child,
+.sect2 p:first-child,
+.sect3 p:first-child,
+.sect4 p:first-child {
+  font-weight: 600;
+  color: white;
+}
+.sect1 p:first-child:hover,
+.sect2 p:first-child:hover,
+.sect3 p:first-child:hover,
+.sect4 p:first-child:hover {
+  text-decoration: underline;
+  color: white;
+}
+.sect1 p:hover,
+.sect2 p:hover,
+.sect3 p:hover,
+.sect4 p:hover {
+  cursor: pointer;
+  color: rgb(7, 233, 158);
+}
+@media screen and (max-width: 481px) {
+  .parentContainer {
+    padding: 0rem;
+    width: 100%;
+  }
+  .sect1 {
+    width: 84%;
+    /* border: 1px solid red; */
+  }
+}

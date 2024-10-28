@@ -1,0 +1,34 @@
+.mainContainer {
+  background-color: inherit;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.contains {
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.BackButton {
+  background-color: inherit;
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 30px;
+  font-weight: 600;
+}
+.BackButton:hover {
+  cursor: pointer;
+  background-color: #12daa8;
+  color: black;
+}
+@media (max-width: 768px) {
+  .contains {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+}

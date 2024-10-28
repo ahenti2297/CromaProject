@@ -1,0 +1,362 @@
+.ViewProductContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  color: white;
+}
+.ProductDetailContainer {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  
+}
+.ProductImageContainer {
+  width: 40%;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+  margin-left: 85%;
+}
+.ProductImages {
+  display: flex;
+  flex-direction: column;
+}
+.ProductImages img {
+  width: 400px;
+}
+.CampareProduct {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.CampareProduct div {
+  margin: 15px 0px;
+  display: flex;
+  align-items: center;
+}
+.CampareProduct div {
+  gap: 10px;
+}
+.disebleButton {
+  cursor: not-allowed;
+}
+.ProductName {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-top: 12px;
+}
+.ExtraDiscount {
+  background: #cffff3;
+  border-radius: 518px;
+  border: none;
+  padding: 6px 16px;
+  color: #088466;
+  font-weight: 700;
+  font-size: 12px !important;
+  line-height: 20px;
+  min-height: 32px;
+  margin-right: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 0.4rem;
+}
+.hrline {
+  border-top: 1px solid gray;
+}
+.mrp {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+  margin: 10px 0px;
+}
+.total_price {
+  color: gray;
+  text-decoration: line-through;
+}
+.saveDiscount {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.ProductRating {
+  font-size: 16px;
+  color: #12daa8;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.ProductPrice {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+}
+.tex {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.deliveryAddress {
+  background-color: #353535;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin-top: 10px;
+}
+a {
+  color: #12daa8;
+}
+.DeliveryAddress {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.StanderdDelivery {
+  font-size: 14px;
+}
+.KeyFeatures {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 0 10px 30px;
+  border: 1px solid rgb(66, 66, 66);
+  border-radius: 6px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  /* font-weight: 600; */
+  color: rgb(255, 255, 255);
+}
+.KeyFeatures p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.KeyFeatures ul li {
+  margin-bottom: 0.5rem;
+}
+.Description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 40px;
+}
+.AddReview {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+.Review {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 40px;
+}
+textarea {
+  width: 50%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 4px 26px;
+  margin: 10px 0px;
+  color: white;
+  background-color: black;
+  line-height: 3;
+}
+.SubmitReview {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: none;
+}
+.SubmitReview:hover {
+  background-color: #12daa8;
+  cursor: pointer;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+.button button {
+  padding: 10px 55px;
+  border: none;
+  border-radius: 8px;
+  background-color: #12daa8;
+  font-size: 16px;
+}
+.button button:hover {
+  cursor: pointer;
+  background-color: rgb(45, 186, 186);
+}
+.ShowMoreButton {
+  padding: 10px 25px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  background-color: gray;
+  margin: 5px auto -15px auto;
+}
+.careImg {
+  margin: 10px 0;
+  /* margin-bottom: 1rem; */
+  height: 85px;
+  width: 100%;
+  background-image: url("https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1696487707/Croma%20Assets/CMS/Zipcare/PDP_ZipCare_555_4oct2023_gu1cih.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 6px;
+}
+@media (max-width: 768px) {
+  .ViewProductContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    color: white;
+  }
+  .ProductDetailContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+  }
+  .ProductImageContainer {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+  }
+  .ProductImages {
+    display: flex;
+    flex-direction: column;
+  }
+  .ProductImages img {
+    width: 100%;
+  }
+  .icons {
+    gap: 20px;
+    margin-left: 78%;
+  }
+
+  .ProductName {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px;
+  }
+  .ExtraDiscount {
+    margin: 0 0 0 10px;
+  }
+  .ProductRating {
+    font-size: 16px;
+    color: #12daa8;
+    margin: 10px;
+  }
+  .ProductPrice {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 0 10px;
+  }
+  .tex {
+    font-size: 12px;
+    margin: 0 0 10px 10px;
+  }
+  .mrp {
+    margin: 10px 0 10px 10px;
+  }
+  .deliveryAddress {
+    background-color: rgb(50, 50, 50);
+    padding: 8px 8px 8px 12px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px 0px;
+  }
+  .DeliveryAddress {
+    font-size: 14px;
+  }
+  .StanderdDelivery {
+    font-size: 14px;
+  }
+  .KeyFeatures {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+    /* margin: 15px 100px 10px 10px; */
+  }
+  .KeyFeatures ul li {
+    margin-left: 1rem;
+  }
+  .careImg {
+    width: 95%;
+    margin: 10px auto 0 auto;
+  }
+  .Description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 25px 40px;
+  }
+  .Review {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 40px;
+  }
+  textarea {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0px;
+    color: white;
+    background-color: black;
+  }
+  .SubmitReview {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+  }
+  .SubmitReview:hover {
+    background-color: #12daa8;
+    cursor: pointer;
+  }
+  .button {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 10px;
+  }
+  .button button {
+    padding: 10px 48px;
+  }
+  .button button:hover {
+    cursor: pointer;
+    background-color: rgb(45, 186, 186);
+  }
+}

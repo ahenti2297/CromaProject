@@ -1,0 +1,135 @@
+.ProductContainer {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  color: white;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+}
+.ProductImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+.ProductImg img {
+  width: 220px;
+}
+.compare {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+  cursor: not-allowed;
+}
+.ProductDetails {
+  width: 55%;
+}
+.ProductName {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-top: 12px;
+}
+.btnSect {
+  display: flex;
+  gap: 2%;
+}
+.btnSect button {
+  border: 1px solid rgb(235, 8, 166);
+  color: rgb(235, 8, 166);
+  background-color: transparent;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.ProductRating {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #12daa8;
+  margin-bottom: 8px;
+}
+.ProductPrice {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+.tex {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.DeliveryAddress {
+  font-size: 16px;
+}
+.StanderdDelivery {
+  font-size: 16px;
+}
+.HeartIcon {
+  margin: 12px;
+}
+.ShareIcon {
+  margin: 12px;
+  /* cursor: not-allowed; */
+}
+@media (max-width: 768px) {
+  .ProductContainer {
+    display: flex;
+    width: 100%;
+    /* margin: auto; */
+    color: white;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+  }
+  .ProductImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 0px;
+  }
+  .ProductImg img {
+    width: 150px;
+  }
+  /* .ProductDetails {
+    width: 400px;
+  } */
+  .ProductName {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 12px;
+  }
+  .ProductRating {
+    font-size: 14px;
+    color: #12daa8;
+    margin-bottom: 5px;
+  }
+  .ProductPrice {
+    font-size: 16px;
+  }
+  .tex {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .DeliveryAddress {
+    font-size: 10px;
+  }
+  .StanderdDelivery {
+    font-size: 12px;
+  }
+  .HeartIcon {
+    margin: 5px;
+  }
+  .ShareIcon {
+    display: none;
+    /* margin: 12px; */
+    /* cursor: not-allowed; */
+  }
+}

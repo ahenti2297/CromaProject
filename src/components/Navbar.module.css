@@ -1,0 +1,149 @@
+.navbar_container {
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+.content {
+  display: flex;
+  width: 80%;
+  gap: 40px;
+  margin: 0 auto;
+}
+.left_part {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  width: 100%;
+}
+.logoandMenu {
+  display: flex;
+  gap: 40px;
+}
+.left_part img {
+  /* height: 30px; */
+  width: 145px;
+  cursor: pointer;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.inputfield form {
+  width: 100%;
+}
+form input {
+  padding: 0;
+  border: none;
+  color: black;
+  width: 100%;
+  font-size: 18px;
+}
+.inputfield {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  padding: 9px;
+  border-radius: 6px;
+  border: none;
+}
+.searchIcon {
+  color: black;
+  cursor: pointer;
+}
+
+.location {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 3px;
+}
+.UserIcon:hover {
+  cursor: pointer;
+}
+
+.right_part {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+}
+.cart {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+}
+.cartnumber {
+  width: 12px;
+  font-size: 12px;
+  text-align: center;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #00e9bf;
+  top: 0;
+  right: -8px;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .navbar_container {
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+    gap: 10px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+  .left_part {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+  }
+  .logoandMenu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* margin: 2px 0px; */
+  }
+  .left_part img {
+    width: 100px;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .inputfield {
+    width: 100%;
+  }
+
+  .right_part {
+    /* flex-direction: column; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* gap: 20px; */
+    /* align-items: center; */
+    /* text-align: center; */
+  }
+  
+}

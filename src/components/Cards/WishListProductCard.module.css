@@ -1,0 +1,119 @@
+.ProductContainer {
+  display: flex;
+  width: 1000px;
+  margin: 30px auto;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 25px;
+}
+.ProductDetail {
+  display: flex;
+}
+.ProductImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+.ProductImg img {
+  width: 150px;
+}
+.ProductDetails {
+  width: 55%;
+}
+.ProductName {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-top: 12px;
+}
+.ProductRating {
+  font-size: 16px;
+  color: #12daa8;
+  margin-bottom: 8px;
+}
+.ProductPrice {
+  font-size: 25px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.tex {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.DeliveryAddress {
+  font-size: 16px;
+}
+.StanderdDelivery {
+  font-size: 16px;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  width: 200px;
+}
+.button button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #12daa8;
+  font-size: 16px;
+}
+.button button:hover {
+  cursor: pointer;
+  background-color: rgb(45, 186, 186);
+}
+@media (max-width: 768px) {
+  .ProductContainer {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .ProductImg {
+    margin: auto 10px auto 0px;
+  }
+  .ProductImg img {
+    width: 120px;
+  }
+  .ProductDetails {
+    width: 100%;
+  }
+  .ProductName {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 12px;
+  }
+  .ProductPrice {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 15px;
+    width: 100%;
+  }
+  .button button {
+    padding: 5px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #12daa8;
+    font-size: 13px;
+  }
+  .ProductId {
+    font-size: 12px;
+    width: 100%;
+  }
+}

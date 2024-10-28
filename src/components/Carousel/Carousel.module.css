@@ -1,0 +1,90 @@
+.carousel {
+  position: relative;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+.slides {
+  width: 100%;
+  height: fit-content;
+}
+.slide_hidden {
+  display: none;
+}
+.arrow_left {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  color: #fff;
+  left: 0;
+  top: 50%;
+}
+.arrow_right {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  color: #fff;
+  right: 0;
+  top: 50%;
+}
+.arrow_left:hover {
+  cursor: pointer;
+}
+.arrow_right:hover {
+  cursor: pointer;
+}
+.indicators {
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+  left: 47%;
+}
+.indicator {
+  background-color: white;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 5px #555;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+.indicator_inactive {
+  background-color: gray;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 5px #555;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .carousel {
+    margin-bottom: 5px;
+  }
+  .arrow_left {
+    display: none;
+  }
+  .arrow_right {
+    display: none;
+  }
+  .indicators {
+    display: flex;
+    position: absolute;
+    bottom: 0.1rem;
+    left: 43%;
+  }
+  .indicator {
+    height: 0.3rem;
+    width: 0.3rem;
+    margin: 0 0.2rem;
+  }
+  .indicator_inactive {
+    height: 0.3rem;
+    width: 0.3rem;
+    margin: 0 0.2rem;
+  }
+}

@@ -1,0 +1,29 @@
+.all_Product_container {
+  flex-grow: 1;
+  overflow: scroll;
+  overscroll-behavior: contain;
+  margin-top: 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  width: 600px;
+  max-width: 100%;
+}
+.shorbutton {
+  color: black;
+  border-radius: 5px;
+  background-color: #12daa8;
+  padding: 5px 10px;
+}
+.productNotFount {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 22px;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+}
